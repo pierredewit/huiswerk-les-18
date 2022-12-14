@@ -1,0 +1,168 @@
+
+body{
+    background-color: #535353;
+    font-family: Raleway, Helvetica, Arial;
+    font-weight: 400;
+    margin:0px;
+    padding:0px;
+  }
+ 
+  header{
+    font-family: Unbounded, Helvetica, Arial;
+    font-weight: 700;
+    background-color: #0c0cf0;
+    background-image: url('../images/bg_header.jpg');
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#ffffff;
+ }  
+
+
+header h1 {
+    text-align:center;
+    font-size: 36px;
+}
+
+/* LINKER KOLOM */
+
+#links {
+    padding: 10px;
+    color: #222222;
+}
+
+#links h2, #rechts h2 {
+    margin:0px;
+    padding:0px; 
+    
+}
+
+#links h2 {
+    padding-bottom:16px; 
+    color: #ffffff;
+}
+
+
+ul#weetjes {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    background-color:#FFFFFF;
+}
+
+ul#weetjes li {
+    padding:5px;
+    display:inline-block;
+}
+
+
+
+
+/* RECHTER KOLOM */
+
+
+
+#rechts {
+    background-color:#eee;
+    padding: 10px;
+}
+
+.content {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom:16px;
+    background-color:#fff;
+    border: 1px solid #e9e9e9;
+    padding: 10px 10px 10px 10px;
+}
+
+
+#rechts img {
+    width:30%;
+    max-width:250px;
+    float:right;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #e9e9e9;    
+}
+
+
+
+[class*="col-"] {
+    float: left;
+    width:100%;
+    }
+
+    @media only screen and (min-width: 768px) {
+        [class*="col-"] {
+            float: left;
+
+            }
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+        }
+
+  @media only screen and (min-width: 768px) {
+    body{
+        background-color:#7a7474;
+    }
+    header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    } 
+    header h1 {
+        font-size: 48px;
+    }  
+    #links {
+        padding: 10px;
+        color: #222222;
+    } 
+  }
+
+  @media only screen and (min-width: 992px) {
+    body{
+      background-color: #202020;
+    }
+    header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    header h1 {
+        font-size: 72px;
+    }
+    #links {
+        padding: 10px;
+        color: #222222;
+    } 
+    #links h2 {
+        color: #FFFFFF;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    body{
+        background-color: #eee;
+    }
+    header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    header h1 {
+        font-size: 96px;
+    }   
+    #links h2 {
+        color: #222222;
+    }   
+  }
